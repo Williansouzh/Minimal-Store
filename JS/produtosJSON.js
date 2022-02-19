@@ -3,64 +3,73 @@ produtosJson = [
         id:1,
         name: 'Pasta preta',
         img: 'IMG/Bolsa de couro preta 1.jpg',
-        hover: 'IMG/bota preta 2.jpg',
-        price: 199
+        hover: 'IMG/Bolsa de couro preta 2.jpg',
+        price: 199,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:2,
         name: 'Pasta marrom',
         img: 'IMG/Bolsa de couro 1.jpg',
         hover: 'IMG/Bolsa de couro 2.jpg',
-        price: 199
+        price: 199,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:3,
         name: 'deskmat preto',
         img: 'IMG/Deskmat 1.jpg',
         hover: 'IMG/Deskmat 2.jpg',
-        price: 179
+        price: 179,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:4,
         name: 'Deskmat marrom',
-        img: 'IMG/desktop 1.jpg',
-        hover: 'IMG/desktop 2.jpg',
-        price: 179
+        img: 'IMG/Deskmat 1.jpg',
+        hover: 'IMG/Deskmat 2.jpg',
+        price: 179,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:5,
         name: 'Black boot',
         img: 'IMG/bota preta 1.jpg',
         hover: 'IMG/bota preta 2.jpg',
-        price: 299
+        price: 299,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:6,
         name: 'White shoes',
         img: 'IMG/tenis 1.jpg',
         hover: 'IMG/tenis 2.jpg',
-        price: 259
+        price: 259,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:7,
         name: 'Coffee',
         img: 'IMG/café 1.jpg',
         hover: 'IMG/café 2.jpg',
-        price: 35
+        price: 35,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:8,
         name: 'Notebook',
         img: 'IMG/caderno 1.jpg',
         hover: 'IMG/caderno 2.jpg',
-        price: 32
+        price: 32,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     {
         id:9,
         name: 'Wallet',
         img: 'IMG/carteira.jpg',
         hover: 'IMG/carteira 2.jpg',
-        price: 85
+        price: 85,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt officiis corporis mollitia eos maiores illo facere sint iusto, distinctio facilis molestias ducimus debitis quas veniam fuga vitae porro. Minima, iusto?' ,
     },
     
 ]

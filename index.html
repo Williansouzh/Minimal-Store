@@ -22,14 +22,38 @@
                 <a href="#">ABOUT</a>
                 <div id="closeMenu">X</div>
             </nav>
+            <div class="items-models">
+                <div class="cartItem"> 
+                    <div class="item-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="item-name">
+                    </div>
+                    <div class="modal-qt item-qt">
+                        <span class="qtmenos">-</span>
+                        <span id="sacolaId">1</span>
+                        <span class="qtmais">+</span>
+                    </div>
+                </div>
+            </div>
             <div class="sacola">
                 <img src="IMG/sacola-de-compras-aberta.png" alt="">
                 <div class="sacola-itens">
                     <div class="sacola-title">
                         <h2>Shopping bag</h2> <span>X</span>
                     </div>
-                    <div class="items-area">
-
+                    <div class="priceItems">
+                        <div class="priceItems subtotal">
+                            <h3>Subtotal</h3> <span>$456</span>
+                        </div>
+                        <div class="priceItems desconto">
+                            <h3>Desconto 10%</h3> <span>$54</span>
+                        </div>
+                        <div class="priceItems total">
+                            <h3>Total</h3> <span>$54</span>
+                        </div>
+                    </div>
+                    <div class="produtos-sacola-area">
                     </div>
                     <div class="botao-div">
                         <input class="botaoBuy" type="button" value="BUY">
@@ -39,12 +63,54 @@
         </div>
     </header>
     <main class="main-bg">
-
+        <div class="main-container">
+            <div class="modal-container">
+                <div class="modal">
+                    <div class="modal-img">
+                        <img src="IMG/Bolsa de couro 2.jpg" alt="">
+                    </div>
+                    <div class="modal-desc">
+                        <div id="closemodal">X</div>
+                        <div class="desc">
+                            <h2></h2>
+                            <p> </p>
+                        </div>
+                        <div class="modal-color">
+                            <div class="color select" id="white"></div>
+                            <div class="color" id="black"></div>
+                            <div class="color" id="brow"></div>
+                        </div>
+                        <div class="modal-qt">
+                            <span class="qt-l">-</span>
+                            <span class="qt-n">1</span>
+                            <span class="qt-m">+</span>
+                        </div>
+                        <div class="button">
+                            <input class="addCart-btn" type="button" value="AddCart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="models">
+                <div class="produtoItem">
+                    <img src="" alt="">
+                    <div class="price">
+                    <h4></h4>
+                    <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="produtos-area">
+            </div>
+        </div>
+        
+        <footer class="footer-bg">
+            <div class="footer-container">
+                <h2>Developed for <strong>Willian Souzh</strong>.</h2>
+            </div>
+        </footer>
     </main>
-    <footer class="footer-bg">
-        <p>Developed for Wilian Souza</p>
-    </footer>
-
+    <script src="JS/produtosJSON.js"></script>
     <script src="JS/script.js"></script>
 </body>
 </html>
