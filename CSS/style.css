@@ -11,7 +11,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
+
 .hide{
     display: none;
 }
@@ -171,6 +173,8 @@ html::-webkit-scrollbar-thumb{
 }
 /*main */
 .main-bg{
+    overflow-x: hidden ;
+    width: 100%;
     height: 100vh;
 }
 .produtos-area{
@@ -242,6 +246,7 @@ html::-webkit-scrollbar-thumb{
 }
 .modal-img{
     width: 50%;
+    padding: 10px;
 }
 .modal-img img{
     width: 100%;
@@ -350,6 +355,7 @@ html::-webkit-scrollbar-thumb{
         display: block;
     }
     .navMenu {
+        left: -100vw;
         position: absolute;
         right: -100vw;
         top: 0;
@@ -400,9 +406,4 @@ html::-webkit-scrollbar-thumb{
     .addCart-btn{
         margin: 10px;
     }
-}
-@media (max-width:500px){
-
-}
-@media (max-width:375px){
 }
